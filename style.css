@@ -1,0 +1,33 @@
+#btn1 {
+  background-color: rgba(230, 67, 195, 0.87);
+  color: black;
+  cursor: pointer;
+  border-radius: 10%;
+  padding: 20px;
+  font-size: 15px;
+}
+#menu:hover #btn1 {
+  background-color: rgb(168, 78, 228);
+  color: navy;
+}
+#menu {
+  position: relative;
+  display: inline-block;
+}
+#content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+}
+#content a {
+  color: rgb(90, 65, 235);
+  padding: 10px 5px;
+  text-decoration: none;
+  display: block;
+}
+#menu a:hover #content {
+  background-color: pink;
+}
+#menu:hover #content {
+  display: block;
+}
